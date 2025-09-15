@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lalit Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Lalit Portfolio</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Lalit Singh</span></h1>
+      <p id="typed-text"></p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Lalit, a passionate and results-driven Web Designer and Developer with extensive experience in creating responsive, dynamic, and user-friendly websites. Alongside web development, I specialize in SEO, helping businesses improve their online visibility, drive organic traffic, and achieve higher search engine rankings. My expertise extends to Graphic Design and Social Media Branding, where I craft visually compelling logos, banners, and promotional content that resonate with audiences. I thrive on turning creative ideas into digital experiences that not only look stunning but also perform efficiently. With a keen eye for detail and a commitment to excellence, I deliver solutions that empower businesses and individuals to establish a strong online presence and achieve their goals effectively.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>My Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>🌐 Web Development</h3>
+        <p>I build responsive, modern and fast websites using HTML, CSS, JavaScript & frameworks like WordPress and React. Custom web apps & landing pages are also part of my expertise.</p>
+      </div>
+      <div class="card">
+        <h3>🎨 Graphic Design</h3>
+        <p>Creative logos, social media banners, ad creatives, posters, business cards and complete branding packages for businesses and individuals.</p>
+      </div>
+      <div class="card">
+        <h3>🔎 SEO</h3>
+        <p>Complete SEO services including On-page, Off-page & Technical SEO to help your business rank higher, get organic traffic, and increase visibility.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Social Media Marketing</h3>
+        <p>Creative designs for Instagram, Facebook, LinkedIn, along with ad creatives, story highlights, and promotional campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <div class="item"><img src="images/web.jpg" alt="Project 1"><p>Gaming Website</p></div>
+      <div class="item"><img src="images/e.jpg" alt="Project 2"><p>E-commerce Store</p></div>
+      <div class="item"><img src="images/d.png" alt="Project 3"><p>Banner Design</p></div>
+      <div class="item"><img src="images/c.jpg" alt="Project 4"><p>Social Media Banner</p></div>
+      <div class="item"><img src="images/logo.jpg" alt="Project 5"><p>Logo Collection</p></div>
+      <div class="item"><img src="images/travel.jpg" alt="Project 6"><p>Landing slides</p></div>
+      <div class="item"><img src="images/food.jpg" alt="Project 6"><p>Mobile App UI</p></div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- Popup Modal -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h3>Message Submitted Successfully!</h3>
+    <p>If you want to contact me directly on my website, click below:</p>
+    <button id="visit-website" class="btn">Yes, Take Me There</button>
+    <span id="close-popup">&times;</span>
+  </div>
+</div>
+
+<!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Lalit Portfolio</h3>
+        <p>I'm a Web Designer & Developer, SEO Specialist and Graphic Designer. I create digital experiences that are engaging, dynamic, and optimized for web.</p>
+      </div>
+  
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p>📞 <a href="tel:+918295137780">+91 8295137780</a></p>
+        <p>📧 <a href="mailto:lalitjohar2125@gmail.com">lalitjohar2125@gmail.com</a></p>
+        <p>🌐 <a href="https://lalit-it.vercel.app/" target="_blank">lalit-it.vercel.app</a></p>
+      </div>
+  
+      <div class="footer-social">
+        <h3>Follow Me</h3>
+        <a href="#" target="_blank">🌐 Website</a>
+        <a href="#" target="_blank">🐦 Twitter</a>
+        <a href="#" target="_blank">📘 Facebook</a>
+        <a href="#" target="_blank">📸 Instagram</a>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© 2025 Lalit Portfolio | All Rights Reserved</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
